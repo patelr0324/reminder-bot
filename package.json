@@ -1,0 +1,26 @@
+{
+  "name": "reminder-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "db:init": "node scripts/init-db.js",
+    "db:reset": "node scripts/reset-db.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@discordjs/rest": "^2.6.1",
+    "chrono-node": "^2.9.0",
+    "discord-api-types": "^0.38.44",
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.0",
+    "luxon": "^3.7.2",
+    "sqlite3": "^6.0.1"
+  }
+}
