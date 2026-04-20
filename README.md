@@ -108,10 +108,6 @@ DNS/network issue from your machine (not usually bot logic). Try:
 - run `nslookup discord.com`
 - switch DNS/network and restart the bot
 
-### Warning about `ephemeral` deprecation
-
-This repo is already updated to use `flags: MessageFlags.Ephemeral`.
-
 ## Notes
 
 - `.env`, `node_modules`, and `*.db` are gitignored.
